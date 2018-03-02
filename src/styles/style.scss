@@ -35,11 +35,9 @@ body {
 	#chanchihiro_header {
 		margin-top: 24px;
 		ul {
-			@include max-screen($breakpoint-mobile) {
 				width: 280px;
 				margin: 0 auto;
 				overflow: hidden;
-			}
 			li {
 				float: left;
 				text-align: center;
@@ -81,6 +79,13 @@ body {
 	#chanchihiro_face_text {
 		margin-top: 24px;
 		text-align: center;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	#chanchihiro_main {
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 40px;
 		font-size: 13px;
 		font-weight: bold;
 	}
