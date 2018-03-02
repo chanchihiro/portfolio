@@ -151,6 +151,16 @@ button {
      -moz-appearance: none;
           appearance: none; }
 
+@keyframes eyemove {
+  0% {
+    left: 0px; }
+  25% {
+    left: 10px; }
+  75% {
+    left: -10px; }
+  100% {
+    left: 0px; } }
+
 body {
   font-family: tsukushi; }
   body #chanchihiro_header {
@@ -188,7 +198,11 @@ body {
       background-size: 460px 460px;
       background-repeat: no-repeat;
       background-position: center center;
-      background-image: url("../img/top_own_eye.png"); }
+      background-image: url("../img/top_own_eye.png");
+      animation-name: eyemove;
+      animation-duration: 2s;
+      animation-timing-function: liner;
+      animation-iteration-count: infinite; }
   body #chanchihiro_face_text {
     margin-top: 24px;
     text-align: center;
