@@ -173,10 +173,22 @@ body {
     width: 100%;
     height: 460px;
     margin-top: 32px;
-    background-image: url("../img/top_own3.png");
+    background-image: url("../img/top_own4.png");
     background-size: 460px 460px;
     background-repeat: no-repeat;
-    background-position: center center; }
+    background-position: center center;
+    position: relative; }
+    body #chanchihiro_face #chanchihiro_eye {
+      position: absolute;
+      width: 100%;
+      height: 460px;
+      top: 0;
+      left: 0;
+      width: 460px;
+      background-size: 460px 460px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url("../img/top_own_eye.png"); }
   body #chanchihiro_face_text {
     margin-top: 24px;
     text-align: center;
